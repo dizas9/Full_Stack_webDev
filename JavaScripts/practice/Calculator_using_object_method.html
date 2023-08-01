@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript first calculator</title>
+</head>
+
+<body>
+    <label for="num1">Num1</label>
+    <input type="text" id="num1">
+    <select name="choise" id="operator">
+        <option value="+">(+)Addition</option>
+        <option value="-">(-)Substraction</option>
+        <option value="*">(*)Multiplication</option>
+        <option value="/">(/)Divition</option>
+    </select>
+
+    <label for="num1">Num2</label>
+    <input type="text" id="num2"> <br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="demo"> </p>
+
+    <script>
+        function calculate() {
+
+
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+
+            const operator = document.getElementById("operator").value;
+
+            const result = {
+                addition: function () {
+                    return (num1 + num2);
+                },
+
+                substraction: function () {
+                    return (num1 - num2);
+                },
+                multiplication: function () {
+                    return (num1 * num2);
+                },
+                divition: function () {
+                    return (num1 / num2);
+                }
+
+            }
+
+            let equal;
+
+            switch (operator) {
+                case "+":
+                    equal = result.addition();
+                    break;
+
+                case "-":
+                    equal = result.substraction();
+                    break;
+
+                case "*":
+                    equal = result.multiplication();
+                    break;
+
+                case "/":
+                    equal = result.divition();
+                    break;
+            }
+
+            document.getElementById("demo").innerHTML = + equal;
+
+        }
+
+    </script>
+</body>
+
+</html>

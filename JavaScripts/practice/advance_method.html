@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice further...</title>
+
+
+</head>
+<body>
+  <div class="demo"></div>  
+  <label for="">First Name :</label>
+  <input type="text" id="first"> <br>
+  <label for="">Last Name :</label>
+  <input type="text" id="last"> <br>
+
+<script>
+    const Name = {
+        firstname : document.getElementById('first'),
+        lastname : document.getElementById('last'),
+
+        fullname : function(){
+            return `My Name is ${this.firstname} ${this.lastname}`;
+        }
+    }
+
+    document.getElementById('demo').innerHTML=Name.fullname();
+</script>
+
+</body>
+</html>
