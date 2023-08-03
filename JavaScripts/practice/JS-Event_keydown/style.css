@@ -1,0 +1,19 @@
+body{
+    height : 50vh;
+    margin:0;
+    display:grid;
+    place-items: center;
+  }
+  
+  .container{
+    width:150px;
+    padding:25px 35px 30px 25px;
+    border : 3px solid #ccc;
+  }
+  
+  .container textarea{
+    font-weight : 700;
+    font-size : 25px;
+    width: 100%;
+    color: blue;
+  }

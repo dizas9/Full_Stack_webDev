@@ -1,7 +1,7 @@
 # 3. JavaScript Events
 <p>In JavaScript, events are actions or occurrences that can be detected and used to trigger specific behaviors in a web page. Events can be user-generated, like clicking a button or typing on a keyboard, or they can be triggered by other sources, such as the browser or external scripts. JavaScript provides a way to listen for and respond to these events.</p>
 
-### __Some key concept of JavaScript Event__ :
+## __Some key concept of JavaScript Event__ :
 
 1. __Event Listener:__ An event listener is ___a function___ that 'listens for' a _specific event_ to occur and triggers a response when the event occurs. Event listeners are ___used to bind events to HTML elements___ and define what ___should happen___ when the event is triggered.
 2. __Event Handler:__ An event handler is the ___function___ that gets executed when the event occurs. It is ___the code that responds to the event___.
@@ -19,7 +19,27 @@ function handleClick(event) { // Event object (parameter) . Here 'event' is "Eve
 button.addEventListener('click', handleClick); // Here "addEventListener()" method is used to create an event listener.
 
 ```
-4.__Event Types:__ There are various types of events in JavaScript, such as mouse events (click, mouseover, mouseout), keyboard events (keyup, keydown), form events (submit, input, change), and more.
+4. __Event Types:__ There are various types of events in JavaScript, such as __mouse events__ (click, mouseover, mouseout), ___keyboard events___ (keyup, keydown), ___form events___ (submit, input, change), and more.
+5. __HTML Event Attributes:__ In HTML, you can use event attributes like ___onclick___,  ___onmouseover___,   ___onkeyup___, etc., to specify the JavaScript code that should run when the corresponding event occurs. While this approach is simple, it is generally better to use event listeners for more flexibility.
+
+## Javascript Basic Events
+- Click (__onclick__)
+- Double Click (__ondblclick__)
+- Right Click (__oncontextmenu__)
+
+
+
+- Mouse Hover (__onmouseenter__) 
+- Mouse Out (__onmouseout__)
+- Mouse Down (__onmousedown__)
+- Mouse Up (__onmouseup__)
+- key Press (__onkeypress__)
+- Key Up (__onkeyup__)
+- Load(__onload__)
+- Unload(__onunload__)
+
+   
+
    
    
 <p><b>addEventListener:</b> This is a method available on DOM elements, such as the button element. It is used to register an 'event handler function' to be executed when a specific event is triggered on the element.</p>
