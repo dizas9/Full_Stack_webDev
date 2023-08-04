@@ -13,7 +13,7 @@ const result = str1 + " " + str2; //Output : "Hello World"
 
 ## let`s see some 👽👽extraterrestrial👽👽 example : <br>
 
-<p style="color : yellow">Guess the output <span style="font-size: 30px">🤯</span></p>
+<span style="color : yellow">Guess the output </span><span style="font-size: 30px">🤯</span>
 
 ```javascript 
 console.log("3" + "3")// output : 33
