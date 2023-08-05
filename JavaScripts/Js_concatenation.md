@@ -30,6 +30,10 @@ console.log("3" + "3" - "3")// output : ???
 </details><br>
 
 ## How ??
+ In JavaScript, when you perform arithmetic operations using the ' + ' , ' - ' , ' * ' , or  ' / ' operators, JavaScript will automatically try to convert the operands to numbers if they are not already numbers. <br>
+
+#### At ___first___ , in above expression addition(+) oparetors used with two string operand "3" and "3" , become "33"(Since both are string) , means JavaScript performs ___string concatenation___ instead of _numerical addition_ . ___Then___  the subtraction operator (-) is used between the concatenated string "33" and the string "3" . Here the interesting part, when JavaScript encounters an arithmetic operator like " - ", it tries to convert the operands to numbers ( "3" can be converted to the number 3) . JavaScript converts both "33" and "3" to numbers.
+
 
 
 
