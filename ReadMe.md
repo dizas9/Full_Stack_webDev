@@ -2,7 +2,7 @@
 ## Recent JavaScript Mini_project 
 ---
 ### 1. __Keyboard Input Tracker__
-#### In this project, I developed a "keyboard input tracker". It captures and displays the keys pressed in an input field. When I click the "__Show__" button, a __popup__ appears with the recorded keys. Additionally, I can reset the input field and recorded keys by clicking the "__Reset__" button. It's a user-friendly feature that allows manage keyboard input easily <br><br>
+ In this project, I developed a "keyboard input tracker". It captures and displays the keys pressed in an input field. When I click the "__Show__" button, a __popup__ appears with the recorded keys. Additionally, I can reset the input field and recorded keys by clicking the "__Reset__" button. It's a user-friendly feature that allows manage keyboard input easily <br><br>
      
 <details open>
 <summary>Show Preview</summary><br>
