@@ -16,6 +16,8 @@
   </h4>
 </div>
 
+### 2. [ROCK-PAPPER-SCISSORS GAME](https://codepen.io/dizas21/pen/BavyQWR)
+
 
 
 ## Note's on Javascript
